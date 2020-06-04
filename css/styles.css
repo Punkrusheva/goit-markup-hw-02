@@ -1,6 +1,9 @@
 ul {
   list-style-type: none;
 }
+a {
+  text-decoration: none;
+}
 
 /* HEDDER */
 
@@ -145,6 +148,17 @@ header .logo-black {
 
 /* PORTFOLIO */
 
+.sorting-nav a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #212121;
+}
+.sorting-nav a:hover,
+.sorting-nav a:focus {
+  color: #ffffff;
+}
 .portfolio h1 {
   visibility: hidden;
   font-size: 0;
