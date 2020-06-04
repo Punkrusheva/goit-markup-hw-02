@@ -1,40 +1,241 @@
-body {
-  color: #757575;
-  color: rgba(255, 255, 255, 0.4)
-  font-size: 14px;
+ul {
+  list-style-type: none;
 }
 
-.logo-blue {
+/* HEDDER */
+
+header .logo-blue {
   color: #2196f3;
   font-style: normal;
   font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
 }
-
-.logo-black {
+header .logo-black {
   color: #000000;
   font-style: normal;
   font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
 }
 
-a {
+.site-nav a {
+  list-style-type: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
   color: #212121;
 }
-
-a:hover,
-a:focus {
+.site-nav a:hover,
+.site-nav a:focus {
   color: #2196f3;
 }
 
-h1 {
-  color: #212121;
-}
-
-h2 {
-  color: #212121;
-}
-
-h3 {
-  color: #212121;
+.address-header a {
+  list-style-type: none;
+  font-style: normal;
+  font-weight: 500;
   font-size: 14px;
+  line-height: 16px;
+  color: #757575;
+}
+.address-header a:hover,
+.address-header a:focus {
+  color: #2196f3;
+}
+
+/* MAIN */
+/* HERO */
+.hero h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.hero a {
+  font-style: normal;
   font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+/* ADVANTAGES */
+.advantages h2 {
+  visibility: hidden;
+  font-size: 0;
+}
+.advantages h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #212121;
+}
+.advantag p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #757575;
+}
+
+/* DIRECTIONS */
+
+.directions h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: #212121;
+}
+.directions h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* TEAM */
+
+.team h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: #212121;
+}
+.team h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #212121;
+}
+.team p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #757575;
+}
+.team a {
+  color: #757575;
+}
+.team a:hover,
+.team a:focus {
+  color: #2196f3;
+}
+
+/* CUSTOMERS */
+
+.customers h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: #212121;
+}
+
+/* PORTFOLIO */
+
+.portfolio h1 {
+  visibility: hidden;
+  font-size: 0;
+}
+.portfolio p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.portfolio h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  color: #212121;
+}
+.portfolio b {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #757575;
+}
+
+/* FOOTER */
+
+footer > .logo-blue {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  color: #2196f3;
+}
+footer > .logo-black {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  color: #ffffff;
+}
+.address-footer {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.social b {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.social a {
+  color: #afb1b8;
+}
+.social a:hover,
+.social a:focus {
+  color: #2196f3;
+}
+.subscribe b {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.subscribe [type="text"] {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.subscribe [type="submit"] {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+}
+footer p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.4);
 }
