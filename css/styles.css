@@ -1,5 +1,12 @@
+:root {
+  --accent-color: #2196f3;
+  --top-color: #212121;
+  --text-color: #757575;
+  --second-color: #ffffff;
+}
+
 ul {
-  list-style-type: none;
+  list-style: none;
 }
 a {
   text-decoration: none;
@@ -8,7 +15,7 @@ a {
 /* HEDDER */
 
 header .logo-blue {
-  color: #2196f3;
+  color: var(--accent-color);
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -28,11 +35,11 @@ header .logo-black {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-  color: #212121;
+  color: var(--top-color);
 }
 .site-nav a:hover,
 .site-nav a:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .address-header a {
@@ -41,11 +48,11 @@ header .logo-black {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-  color: #757575;
+  color: var(--text-color);
 }
 .address-header a:hover,
 .address-header a:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* MAIN */
@@ -57,7 +64,7 @@ header .logo-black {
   line-height: 60px;
   text-transform: uppercase;
   text-align: center;
-  color: #ffffff;
+  color: var(--second-color);
 }
 .hero a {
   font-style: normal;
@@ -65,7 +72,7 @@ header .logo-black {
   font-size: 16px;
   line-height: 30px;
   text-align: center;
-  color: #ffffff;
+  color: var(--second-color);
 }
 
 /* ADVANTAGES */
@@ -78,7 +85,7 @@ header .logo-black {
   font-weight: bold;
   font-size: 14px;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--top-color);
 }
 .advantag p {
   font-style: normal;
@@ -86,7 +93,7 @@ header .logo-black {
   font-size: 14px;
   line-height: 24px;
   text-align: center;
-  color: #757575;
+  color: var(--text-color);
 }
 
 /* DIRECTIONS */
@@ -97,7 +104,7 @@ header .logo-black {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-  color: #212121;
+  color: var(--top-color);
 }
 .directions h3 {
   font-style: normal;
@@ -106,7 +113,7 @@ header .logo-black {
   line-height: 16px;
   text-transform: uppercase;
   text-align: center;
-  color: #ffffff;
+  color: var(--second-color);
 }
 
 /* TEAM */
@@ -117,7 +124,7 @@ header .logo-black {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-  color: #212121;
+  color: var(--top-color);
 }
 .team h3 {
   font-style: normal;
@@ -125,7 +132,7 @@ header .logo-black {
   font-size: 16px;
   line-height: 19px;
   text-align: center;
-  color: #212121;
+  color: var(--top-color);
 }
 .team p {
   font-style: normal;
@@ -133,14 +140,14 @@ header .logo-black {
   font-size: 16px;
   line-height: 19px;
   text-align: center;
-  color: #757575;
+  color: var(--text-color);
 }
 .team a {
-  color: #757575;
+  color: var(--text-color);
 }
 .team a:hover,
 .team a:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* CUSTOMERS */
@@ -151,7 +158,7 @@ header .logo-black {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-  color: #212121;
+  color: var(--top-color);
 }
 
 /* PORTFOLIO */
@@ -161,11 +168,11 @@ header .logo-black {
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
-  color: #212121;
+  color: var(--top-color);
 }
 .sorting-nav a:hover,
 .sorting-nav a:focus {
-  color: #ffffff;
+  color: var(--second-color);
 }
 .portfolio h1 {
   visibility: hidden;
@@ -176,21 +183,21 @@ header .logo-black {
   font-weight: normal;
   font-size: 18px;
   line-height: 28px;
-  color: #ffffff;
+  color: var(--second-color);
 }
 .portfolio h2 {
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 36px;
-  color: #212121;
+  color: var(--top-color);
 }
 .portfolio b {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
-  color: #757575;
+  color: var(--text-color);
 }
 
 /* FOOTER */
@@ -200,21 +207,21 @@ footer > .logo-blue {
   font-weight: bold;
   font-size: 22px;
   line-height: 26px;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 footer > .logo-black {
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
   line-height: 26px;
-  color: #ffffff;
+  color: var(--second-color);
 }
 .address-footer {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #ffffff;
+  color: var(--second-color);
 }
 .social b {
   font-style: normal;
@@ -222,14 +229,14 @@ footer > .logo-black {
   font-size: 14px;
   line-height: 16px;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--second-color);
 }
 .social a {
-  color: #afb1b8;
+  color: var(--text-color);
 }
 .social a:hover,
 .social a:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .subscribe b {
   font-style: normal;
@@ -237,27 +244,26 @@ footer > .logo-black {
   font-size: 14px;
   line-height: 16px;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--second-color);
 }
 .subscribe [type="text"] {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
-
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--text-color);
 }
 .subscribe [type="submit"] {
   font-style: normal;
   font-weight: 900;
   font-size: 16px;
   line-height: 30px;
-  color: #ffffff;
+  color: var(--second-color);
 }
 footer p {
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 24px;
-  color: rgba(255, 255, 255, 0.4);
+  color: var(--text-color);
 }
