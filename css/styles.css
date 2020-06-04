@@ -56,7 +56,7 @@ header .logo-black {
   font-size: 44px;
   line-height: 60px;
   text-transform: uppercase;
-
+  text-align: center;
   color: #ffffff;
 }
 .hero a {
@@ -64,6 +64,7 @@ header .logo-black {
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
+  text-align: center;
   color: #ffffff;
 }
 
@@ -84,6 +85,7 @@ header .logo-black {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+  text-align: center;
   color: #757575;
 }
 
@@ -94,6 +96,7 @@ header .logo-black {
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
+  text-align: center;
   color: #212121;
 }
 .directions h3 {
@@ -102,6 +105,7 @@ header .logo-black {
   font-size: 14px;
   line-height: 16px;
   text-transform: uppercase;
+  text-align: center;
   color: #ffffff;
 }
 
@@ -112,6 +116,7 @@ header .logo-black {
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
+  text-align: center;
   color: #212121;
 }
 .team h3 {
@@ -119,6 +124,7 @@ header .logo-black {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
+  text-align: center;
   color: #212121;
 }
 .team p {
@@ -126,6 +132,7 @@ header .logo-black {
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
+  text-align: center;
   color: #757575;
 }
 .team a {
@@ -143,6 +150,7 @@ header .logo-black {
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
+  text-align: center;
   color: #212121;
 }
 
