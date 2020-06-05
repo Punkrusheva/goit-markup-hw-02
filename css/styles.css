@@ -52,7 +52,7 @@ header .logo-black {
   color: #000000;
 }
 
-.site-nav a {
+.site-nav .link {
   font-family: var(--font-family);
   list-style-type: none;
   font-style: normal;
@@ -62,8 +62,11 @@ header .logo-black {
   letter-spacing: 0.02em;
   color: var(--title-color);
 }
-.site-nav a:hover,
-.site-nav a:focus {
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
   color: var(--accent-color);
 }
 .address-header a {
