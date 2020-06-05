@@ -9,6 +9,9 @@
   --text-font-size: 14px;
 }
 
+body {
+  font-family: var(--font-family);
+}
 ul {
   list-style: none;
 }
